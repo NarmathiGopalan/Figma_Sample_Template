@@ -1,0 +1,599 @@
+  *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }      
+        
+        @import url('https://fonts.cdnfonts.com/css/hk-groteks');
+        @import url('https://fonts.cdnfonts.com/css/product-sans');
+        
+        .navbar{
+            background-color: #FFFFFF;
+            box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.05);
+            height: 107px;
+           
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                width: 100%;
+            }
+        }
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        /* new navbar */
+        #navbarNavAltMarkup{
+            justify-content: right;
+            padding:20px ;
+        }
+
+        #text1{
+            margin-top:100px ;
+        }
+        .nav-link{
+            font-family: 'HK Grotesk', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+        }
+
+        #text1{
+      
+            top:100px;
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            color: #000000;
+            width: 100%;
+            height: auto;   
+            margin-top:100px;
+           
+        }
+        #text2{
+            font-family: 'HK Grotesk';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 119.7%;
+            color: #000000;
+            opacity: 0.8;
+        }
+        .image{
+            left: -2.48%;
+            right: 10.2%;
+            top: 54.09%;
+            bottom: 28.66%;
+            opacity: 0.5;
+        }
+        img1{
+            width:500px;
+            height:auto;
+        }
+        .btn{
+            margin-top: 5px;
+            border-radius:30px ;
+            border-color:#F9BC6E ;
+            background-color: #FFFFFF;
+            color:#F9BC6E;
+        }
+        #button{
+            background-color: #F9BC6E;
+            margin-top:25px ;
+            color:#FFFFFF;
+            border-radius:10px ;
+            padding:20px;
+            border: none;
+            width:200px;
+            font-weight:20px;
+        }
+        #social{
+           
+            width: 100%;
+            height: auto;
+            display:flex;
+            margin-top: 0;}
+
+        /* container2 */
+        .card-horizontal {
+            display: flex;
+            flex: 1 1 auto;
+        }
+        #how{
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 137.2%;
+            /* or 71px */
+
+            text-align: center;
+
+            color: #000000;
+
+        }
+        /* hr line */
+        .h_line {
+            border-bottom: 6px solid #F9BC6E;;
+            width: 89px;
+            height: 3px;
+            margin: auto;
+            border-radius: 1000px;
+        }
+        .h_line1{
+            width: 89px;
+            height: 3px;
+            left: 471px;
+            top: 339px;
+
+/* Primary */
+
+background: #F9BC6E;
+border-radius: 1000px;
+        }
+
+        /* box */
+        
+        
+
+        .card {
+            flex-direction: row;
+            border-color: none;
+          }
+          .card img {
+            width: 30%;
+          }
+        .card-title{
+            width: 100%;
+            height: auto;
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 137.2%;
+            color: #F9BC6E;
+
+        }
+        .card-text{
+            width:100%;
+            height:auto;
+            
+            margin-top:20px;
+            font-family: 'HK Grotesk';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 170.7%;
+            color: #000000;
+            opacity: 0.7;
+        }
+#textt2{
+    width:100%;
+    height:auto;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 137.2%;
+    color: #F9BC6E;
+
+}
+#textt3{
+            width:100%;
+            height:auto;
+            
+            margin-top:20px;
+            font-family: 'HK Grotesk';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 170.7%;
+            color: #000000;
+            opacity: 0.7;
+}
+.shadow{
+    width:100%;
+    height:auto;
+    background: #FFFFFF;
+    box-shadow: 0px 69px 114px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+.number1{
+    width:100%;
+    height:auto;
+    left: 42px;
+    top: 176px;
+    
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 124px;
+    line-height: 45.2%;
+    /* identical to box height, or 56px */
+    
+    letter-spacing: -0.045em;
+    
+    /* Primary */
+    
+    color: #F9BC6E;
+    
+    opacity: 0.15;
+    
+    
+}
+.number2{
+width: 100%;
+height: auto;
+
+align-items: end;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 900;
+font-size: 124px;
+line-height: 45.2%;
+/* identical to box height, or 56px */
+
+letter-spacing: -0.045em;
+
+/* Primary */
+
+color: #F9BC6E;
+
+opacity: 0.15;
+}
+
+
+#s1{
+
+}
+#book{
+width:100%;
+height:auto;
+padding:100px;
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size:40px;
+line-height: 128.3%;
+/* or 82px */
+
+color: #FFFFFF;
+
+}
+
+#con{
+    width:100%;
+    height:auto;
+ 
+     top: 243px;
+
+background: #FFFFFF;
+border-radius: 1000px;
+}
+.test{
+    margin-top: 30px;
+    font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 137.2%;
+/* or 71px */
+
+text-align: center;
+
+color: #000000;
+}
+
+#book1{
+    width: 250.85px;
+    height: 339.4px;
+    margin-top: 70px;
+    margin-left: 20px;
+    background-color: #F9BC6E;
+}
+#book2{
+margin-left:50px;
+margin-top:25px ;
+
+bottom: 34.19%;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 51px;
+/* or 159% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+}
+.coma{
+    
+    margin-top: 20px;
+    width: 100%;
+    height: auto; 
+}
+#book3{
+height: 30.28px;
+
+right: 33.22%;
+top: calc(50% - 30.28px/2 + 184.94px);
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+
+/* Primary */
+
+color: #F9BC6E;
+}
+
+
+
+
+
+#digital1{
+    
+    width:100%;
+    height:auto;
+    left: 13.28%;
+    right: 60.42%;
+    top: 38.95%;
+    bottom: 38.95%;
+    
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 128.3%;
+    /* or 82px */
+    padding:30px;
+    margin-top:100px;
+    
+    color: #FFFFFF;
+    
+}
+
+.card11{
+    width:100%;
+    height:auto;
+    left: 826px;
+    top: 144.9px;
+    margin-top: 30px;
+    background: #DFA762;
+    box-shadow: 0px 69px 114px rgba(124, 20, 253, 0.08);
+    border-radius: 30px;
+    padding:5px;
+}
+.card12{
+    width:100%;
+    height:auto;
+    left: 826px;
+    top: 144.9px;
+    margin-top: 30px;
+    background: #DFA762;
+    box-shadow: 0px 69px 114px rgba(124, 20, 253, 0.08);
+    border-radius: 30px;
+    padding:10px;
+}
+.card-title{
+    width:100%;
+height:auto;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 58px;
+/* or 131% */
+
+letter-spacing: -1px;
+
+color: #F9BC6E;
+
+}
+
+#are{
+    font-family: 'HK Grotesk';
+font-style: normal;
+font-weight:500px;
+font-size: 15px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+
+
+/* why da pixel */
+#why{
+    width:100%;
+height:auto;
+left: 255px;
+top: 265.01px;
+
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 137.2%;
+/* or 71px */
+
+
+color: #000000;
+
+}
+
+#get{
+    width:100% ;
+height:auto;
+left: 255px;
+top: 354.01px;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 42px;
+/* or 193% */
+
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+
+/* footer */
+
+#fimg{
+    
+    height:auto;
+   justify-content: center;
+   display: flex;
+   margin-top:30px;
+
+    
+    
+}
+
+#address{
+
+
+
+margin-top:0px;
+margin-top: 60px;
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+/* or 175% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+#fimg1{
+    width:200px;
+    height:auto;
+   
+    justify-content: center;
+    
+    
+}
+
+#company{
+   
+
+height:auto;
+justify-content:left;
+display: flex;
+margin-top:30px;
+ 
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+}
+
+#content{
+
+    margin-top:0px;
+margin-top: 60px;
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+justify-content: center;
+/* or 175% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+
+
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+
+/* free.csss */
+
+.face{
+    height:auto;
+justify-content:left;
+display: flex;
+margin-top:30px;
+ 
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+}
+
+.face1{
+    
+    margin-top:0px;
+margin-top: 60px;
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+justify-content: center;
+/* or 175% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+
+
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+}
+

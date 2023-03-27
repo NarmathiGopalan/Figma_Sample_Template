@@ -1,0 +1,258 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }      
+        
+        @import url('https://fonts.cdnfonts.com/css/hk-groteks');
+        @import url('https://fonts.cdnfonts.com/css/product-sans');
+
+
+#text11{
+   
+
+
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+
+display: flex;
+
+margin-top:70px ;
+/* or 88px */
+
+letter-spacing: -0.015em;
+
+/* Black */
+
+color: #000000;
+}
+
+#text12{
+    
+left: 0px;
+top: 117.28px;
+display: flex;
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 119.7%;
+/* identical to box height, or 29px */
+
+
+/* Primary */
+    
+} 
+
+#para{
+    left: 9.38%;
+right: 9.38%;
+top: 39.33%;
+bottom: 53.68%;
+
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* or 117% */
+
+text-align: center;
+
+color: #000000;
+margin-top: 10px ;
+}
+
+#para1{
+    left: 28.33%;
+right: 28.33%;
+top: 50.38%;
+bottom: 43.95%;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+color: #000000;
+
+
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+.anchor{
+    left: 25.46%;
+right: 25.46%;
+top: 58.93%;
+bottom: 29.72%;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+
+color: #B070FF;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+#button{
+    
+}
+.col{
+    background: #FFFFFF;
+box-shadow: 0px 69px 114px rgba(0, 0, 0, 0.08);
+border-radius: 20px;
+}
+
+
+/* foooter */
+/* footer */
+
+#fimg{
+    
+    height:auto;
+   justify-content: center;
+   display: flex;
+   margin-top:30px;
+
+    
+    
+}
+
+#address{
+
+
+
+margin-top:0px;
+margin-top: 60px;
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+/* or 175% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+#fimg1{
+    width:200px;
+    height:auto;
+   
+    justify-content: center;
+    
+    
+}
+
+#company{
+   
+
+height:auto;
+justify-content:left;
+display: flex;
+margin-top:30px;
+ 
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+}
+
+#content{
+
+    margin-top:0px;
+margin-top: 60px;
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+justify-content: center;
+/* or 175% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+
+
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+
+/* free.csss */
+
+.face{
+    height:auto;
+justify-content:left;
+display: flex;
+margin-top:30px;
+ 
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+}
+
+.face1{
+    
+    margin-top:0px;
+margin-top: 60px;
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+justify-content: center;
+/* or 175% */
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+
+
+
+letter-spacing: 0.2px;
+
+color: #000000;
+
+opacity: 0.8;
+}
